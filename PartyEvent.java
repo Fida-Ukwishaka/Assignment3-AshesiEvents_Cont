@@ -1,8 +1,7 @@
 public interface PartyEvent {
     String getTheme();
-    String getLocation();
-    String getPerfomer();
+    String getPartyLocation();
+    String getPerformer();
     String getDJ();
     String getDressCode();
-    void specificData();
 }

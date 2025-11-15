@@ -1,6 +1,5 @@
-import org.junit.jupiter.api.Test;
-import Assignment2_Fida.Lectures;
-import org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
 

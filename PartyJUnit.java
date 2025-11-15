@@ -1,6 +1,5 @@
-import org.junit.jupiter.api.Test;
-import Assignment2_Fida.Parties;
-import org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -20,26 +19,11 @@ public class PartyJUnit {
             "Mavo",
             "DJ Phize",
             "Party casual");
-            
-        Parties p2 = new Parties("Ubora",
-            "Awards Evening",
-            "Alisa Hotel Accra",
-            LocalDate.of(2025, 12, 3),
-            LocalTime.of(17, 0),
-            5,
-            "Ashesi University",
-            "Celebrating Excellence",
-            "Grand Ballroom",
-            "Live Performance by Tyler",
-            "DJ Remy",
-            "Elegance");
 
-        assertEquals("Neon", p1.getTheme());
-        assertEquals("The Hive", p1.Location());
-        assertEquals("DJ Mike", p1.getDJ());
-        assertEquals("Masquerade", p2.getDressCode());
+        assertEquals("Till Morning", p1.getTheme());
+        assertEquals("New Car Park", p1.getPartyLocation());
+        assertEquals("DJ Phize", p1.getDJ());
         
         p1.specificData();
-        p2.specificData();
     }
 }

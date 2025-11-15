@@ -1,4 +1,3 @@
-package Assignment2_Fida;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -24,7 +23,7 @@ public class Parties extends Events implements PartyEvent {
         return partyTheme;
     }
     @Override
-    public String Location() {
+    public String getPartyLocation() {
         return partyLocation;
     }
     @Override

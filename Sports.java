@@ -1,8 +1,7 @@
-package Assignment2_Fida;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
-public class Sports extends Events {
+public class Sports extends Events implements SportEvent{
     private String sportType;
     private String hostAssociation;
     private String gameSeason;
@@ -44,10 +43,11 @@ public class Sports extends Events {
 
     @Override
     public void specificData() {
+        String[] teams = new String[] {team1, team2};
         System.out.println("Sport Type: " + sportType);
         System.out.println("Hosted by: " + hostAssociation);
         System.out.println("Season " + gameSeason);
-        System.out.println("Teams Involved: " + teams);
+        System.out.println("Teams Involved: " + teams[0] + " VS " + teams[1]);
     }
     
 }

@@ -3,5 +3,4 @@ public interface LectureEvent {
     String getFI();
     String getCourse();
     String getTopic();
-    void specificdata();
 }
