@@ -31,10 +31,10 @@ public class LectureJUnit {
             "Algorithms and Data Structures",
             "Sarah Mensah");
 
-        assertEquals("Dr.Agnes",second.getLName());
-        assertEquals("Anatomy",first.getCourse());
-        assertEquals("Fida U.",first.getFI());
-        assertEquals("Muscles of the Skin",second.getTopic());
+        assertEquals("Dr. Daniel Addo",second.getLName());
+        assertEquals("Object-Oriented Programming",first.getCourse());
+        assertEquals("Blaise Izerimana",first.getFI());
+        assertEquals("Trees and Graphs",second.getTopic());
 
         first.specificData();
         second.specificData();
